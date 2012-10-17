@@ -1,6 +1,6 @@
 send-keys ":vnew" C-m C-w h
 send-keys ":new" C-m i0 C-m C-[ kdd C-w j 30000P C-w k
-send-keys ":new" C-m C-w j i "                                 !" '"' "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ " C-[ 0 C-w k
+send-keys ":new" C-m C-w j i "                                 !" '"' "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ " C-[ 0 C-w k
 
 send-keys qi xu ":new" C-m i C-m C-[ '"cP' "a " C-[ '"tp' a C-m " " C-[ '"ep' gg0 '/^[' C-r '" ]' C-m w D ":q!" C-m '@"' q
 
