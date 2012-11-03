@@ -1,13 +1,13 @@
-send-keys ":vnew" C-m C-w h
-send-keys ":new" C-m i0 C-m C-[ kdd C-w j 30000P C-w k
-send-keys ":new" C-m C-w j i "                                 !" '"' "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ " C-[ 0 C-w k
+send-keys ':vnew' C-m C-w h
+send-keys ':new' C-m i0 C-m C-[ kdd C-w j 30000P C-w k
+send-keys ':new' C-m C-w j i '                                 !"' "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ " C-[ 0 C-w k
 
-send-keys qi xu ":new" C-m i C-m C-[ '"cP' "a " C-[ '"tp' a C-m " " C-[ '"ep' gg0 '/^[' C-r '" ]' C-m w D ":q!" C-m '@"' q
+send-keys qi yl ':new' C-m i C-m C-[ '"cP' "a " C-[ '"tp' a C-m ' ' C-[ '"ep' gg0 '/^[' C-r '" ]' C-m w D ':q!' C-m '@"' q
 
 send-keys qj C-w j q
 send-keys qk C-w k q
 
-send-keys qn D ":new" C-m i 0 C-m C-r '"' C-m "256" C-[ gg0 '/^256' C-m k 0 D ":q!" C-m p 0 D ":new" C-m i "255" C-m C-r '"' C-m "-1" C-[ gg0 '/^-1' C-m k 0 D ":q!" C-m p 0 q
+send-keys qn D ':new' C-m i 0 C-m C-r '"' C-m '256' C-[ gg0 '/^256' C-m k 0 D ':q!' C-m p 0 D ':new' C-m i '255' C-m C-r '"' C-m '-1' C-[ gg0 '/^-1' C-m k 0 D ':q!' C-m p 0 q
 
 send-keys qv 2@j j 2@k q
 
@@ -17,7 +17,7 @@ send-keys qx 2@j C-a 0 @n 2@k q
 
 send-keys qy 2@j C-x 0 @n 2@k q
 
-send-keys qz 2@j Du @k '@"' l xu 0 C-w l p C-w t q
+send-keys qz 2@j 'y$' @k '@"' l yl 0 C-w l p C-w t q
 
 send-keys qu @k C-a 0 @j q
 send-keys qd @k C-x 0 @j q
@@ -25,12 +25,12 @@ send-keys qq ":q!" C-m q
 
 send-keys qo @d @k ':let @c = "0"' C-m ':let @t = "@q"' C-m ':let @e = "@j@l"' C-m @i q
 send-keys ql l ':let @c = "["' C-m ':let @t = "@u"' C-m ':let @e = "vv"' C-m @i ':let @c = "]"' C-m ':let @t = "@o"' C-m ':let @e = "@l"' C-m @i q
-send-keys qp ":new" C-m i1 C-[ 0 @j @l q
+send-keys qp ':new' C-m i1 C-[ 0 @j @l q
 send-keys qs 2@j ':let @c = "0"' C-m ':let @t = "2@k@p"' C-m ':let @e = "2@k"' C-m @i q
 
 send-keys qm @d @k ':let @c = "0"' C-m ':let @t = "@q"' C-m ':let @e = "@j@h"' C-m @i q
 send-keys qh h ':let @c = "]"' C-m ':let @t = "@u"' C-m ':let @e = "vv"' C-m @i ':let @c = "["' C-m ':let @t = "@m"' C-m ':let @e = "@h"' C-m @i q
-send-keys qg ":new" C-m i1 C-[ 0 @j @h q
+send-keys qg ':new' C-m i1 C-[ 0 @j @h q
 send-keys qf 2@j ':let @c = "0"' C-m ':let @t = "2@k"' C-m ':let @e = "2@k@g"' C-m @i q
 
 send-keys qb ':let @c = "\>"' C-m ':let @t = "@v"' C-m ':let @e = "vv"' C-m @i ':let @c = "\<"' C-m ':let @t = "@w"' C-m ':let @e = "vv"' C-m @i ':let @c = "\+"' C-m ':let @t = "@x"' C-m ':let @e = "vv"' C-m @i ':let @c = "\-"' C-m ':let @t = "@y"' C-m ':let @e = "vv"' C-m @i ':let @c = "\."' C-m ':let @t = "@z"' C-m ':let @e = "vv"' C-m @i ':let @c = "\["' C-m ':let @t = "@s"' C-m ':let @e = "vv"' C-m @i ':let @c = "\]"' C-m ':let @t = "@f"' C-m ':let @e = "vv"' C-m @i l @b q
@@ -42,7 +42,7 @@ send-keys qr C-w t 2@j gg 30000@a gg C-w l ":%d" C-m C-w t q
 
 # compiled!
 
-send-keys ':let @a = ""' C-m ':let @b = ""' C-m ':let @c = ""' C-m ':let @d = ""' C-m ':let @e = ""' C-m ':let @f = ""' C-m ':let @g = ""' C-m ':let @h = ""' C-m ':let @i = ""' C-m ':let @j = ""' C-m ':let @k = ""' C-m ':let @l = ""' C-m ':let @m = ""' C-m ':let @n = ""' C-m ':let @o = ""' C-m ':let @p = ""' C-m ':let @q = ""' C-m ':let @r = ""' C-m ':let @s = ""' C-m ':let @t = ""' C-m ':let @u = ""' C-m ':let @v = ""' C-m ':let @w = ""' C-m ':let @x = ""' C-m ':let @y = ""' C-m ':let @z = ""' C-m ":new" C-m ":new" C-m ":new" C-m ":new" C-m qi xu ":new" C-m i C-m C-[ '"cP' "a " C-[ '"tp' a C-m " " C-[ '"ep' gg0 '/^[' C-r '" ]' C-m w D ":q!" C-m '@"' q qj C-w j q qk C-w k q qn D ":new" C-m i 0 C-m C-r '"' C-m "256" C-[ gg0 '/^256' C-m k 0 D ":q!" C-m p 0 D ":new" C-m i "255" C-m C-r '"' C-m "-1" C-[ gg0 '/^-1' C-m k 0 D ":q!" C-m p 0 q qv 2@j j 2@k q qw 2@j k 2@k q qx 2@j C-a 0 @n 2@k q qy 2@j C-x 0 @n 2@k q qz 2@j Du @k '@"' l xu 0 C-w l p C-w t q qu @k C-a 0 @j q qd @k C-x 0 @j q qq ":q!" C-m q qo @d @k ':let @c = "0"' C-m ':let @t = "@q"' C-m ':let @e = "@j@l"' C-m @i q ql l ':let @c = "["' C-m ':let @t = "@u"' C-m ':let @e = "vv"' C-m @i ':let @c = "]"' C-m ':let @t = "@o"' C-m ':let @e = "@l"' C-m @i q qp ":new" C-m i1 C-[ 0 @j @l q qs 2@j ':let @c = "0"' C-m ':let @t = "2@k@p"' C-m ':let @e = "2@k"' C-m @i q qm @d @k ':let @c = "0"' C-m ':let @t = "@q"' C-m ':let @e = "@j@h"' C-m @i q qh h ':let @c = "]"' C-m ':let @t = "@u"' C-m ':let @e = "vv"' C-m @i ':let @c = "["' C-m ':let @t = "@m"' C-m ':let @e = "@h"' C-m @i q qg ":new" C-m i1 C-[ 0 @j @h q qf 2@j ':let @c = "0"' C-m ':let @t = "2@k"' C-m ':let @e = "2@k@g"' C-m @i q qb ':let @c = "\>"' C-m ':let @t = "@v"' C-m ':let @e = "vv"' C-m @i ':let @c = "\<"' C-m ':let @t = "@w"' C-m ':let @e = "vv"' C-m @i ':let @c = "\+"' C-m ':let @t = "@x"' C-m ':let @e = "vv"' C-m @i ':let @c = "\-"' C-m ':let @t = "@y"' C-m ':let @e = "vv"' C-m @i ':let @c = "\."' C-m ':let @t = "@z"' C-m ':let @e = "vv"' C-m @i ':let @c = "\["' C-m ':let @t = "@s"' C-m ':let @e = "vv"' C-m @i ':let @c = "\]"' C-m ':let @t = "@f"' C-m ':let @e = "vv"' C-m @i l @b q qa 0Di0 C-[ j q qr C-w t 2@j gg 30000@a gg C-w l ":%d" C-m C-w t q ":only!" C-m ":vnew" C-m C-w h ":new" C-m i0 C-m C-[ kdd C-w j 30000P C-w k ":new" C-m C-w j i "                                 !" '"' "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ " C-[ 0 C-w k
+send-keys ':let @a = ""' C-m ':let @b = ""' C-m ':let @c = ""' C-m ':let @d = ""' C-m ':let @e = ""' C-m ':let @f = ""' C-m ':let @g = ""' C-m ':let @h = ""' C-m ':let @i = ""' C-m ':let @j = ""' C-m ':let @k = ""' C-m ':let @l = ""' C-m ':let @m = ""' C-m ':let @n = ""' C-m ':let @o = ""' C-m ':let @p = ""' C-m ':let @q = ""' C-m ':let @r = ""' C-m ':let @s = ""' C-m ':let @t = ""' C-m ':let @u = ""' C-m ':let @v = ""' C-m ':let @w = ""' C-m ':let @x = ""' C-m ':let @y = ""' C-m ':let @z = ""' C-m ':new' C-m ':new' C-m ':new' C-m ':new' C-m qi yl ':new' C-m i C-m C-[ '"cP' 'a ' C-[ '"tp' a C-m ' ' C-[ '"ep' gg0 '/^[' C-r '" ]' C-m w D ':q!' C-m '@"' q qj C-w j q qk C-w k q qn D ':new' C-m i 0 C-m C-r '"' C-m '256' C-[ gg0 '/^256' C-m k 0 D ':q!' C-m p 0 D ':new' C-m i '255' C-m C-r '"' C-m '-1' C-[ gg0 '/^-1' C-m k 0 D ':q!' C-m p 0 q qv 2@j j 2@k q qw 2@j k 2@k q qx 2@j C-a 0 @n 2@k q qy 2@j C-x 0 @n 2@k q qz 2@j 'y$' @k '@"' l yl 0 C-w l p C-w t q qu @k C-a 0 @j q qd @k C-x 0 @j q qq ':q!' C-m q qo @d @k ':let @c = "0"' C-m ':let @t = "@q"' C-m ':let @e = "@j@l"' C-m @i q ql l ':let @c = "["' C-m ':let @t = "@u"' C-m ':let @e = "vv"' C-m @i ':let @c = "]"' C-m ':let @t = "@o"' C-m ':let @e = "@l"' C-m @i q qp ":new" C-m i1 C-[ 0 @j @l q qs 2@j ':let @c = "0"' C-m ':let @t = "2@k@p"' C-m ':let @e = "2@k"' C-m @i q qm @d @k ':let @c = "0"' C-m ':let @t = "@q"' C-m ':let @e = "@j@h"' C-m @i q qh h ':let @c = "]"' C-m ':let @t = "@u"' C-m ':let @e = "vv"' C-m @i ':let @c = "["' C-m ':let @t = "@m"' C-m ':let @e = "@h"' C-m @i q qg ':new' C-m i1 C-[ 0 @j @h q qf 2@j ':let @c = "0"' C-m ':let @t = "2@k"' C-m ':let @e = "2@k@g"' C-m @i q qb ':let @c = "\>"' C-m ':let @t = "@v"' C-m ':let @e = "vv"' C-m @i ':let @c = "\<"' C-m ':let @t = "@w"' C-m ':let @e = "vv"' C-m @i ':let @c = "\+"' C-m ':let @t = "@x"' C-m ':let @e = "vv"' C-m @i ':let @c = "\-"' C-m ':let @t = "@y"' C-m ':let @e = "vv"' C-m @i ':let @c = "\."' C-m ':let @t = "@z"' C-m ':let @e = "vv"' C-m @i ':let @c = "\["' C-m ':let @t = "@s"' C-m ':let @e = "vv"' C-m @i ':let @c = "\]"' C-m ':let @t = "@f"' C-m ':let @e = "vv"' C-m @i l @b q qa 0Di0 C-[ j q qr C-w t 2@j gg 30000@a gg C-w l ':%d' C-m C-w t q ':only!' C-m ':vnew' C-m C-w h ':new' C-m i0 C-m C-[ kdd C-w j 30000P C-w k ':new' C-m C-w j i '                                 !"' "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ " C-[ 0 C-w k
 
 
 
